@@ -1,2 +1,2 @@
 # automata_opencat
-Python automation via serial port for the opencat project
+Remote automation via bluettooth serial port for the opencat project.

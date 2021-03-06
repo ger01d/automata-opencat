@@ -1,2 +1,2 @@
 # automata_opencat
-Remote automation via bluettooth serial port for OpenCat Nybble.
+Remote automation via bluetooth serial port for OpenCat Nybble.

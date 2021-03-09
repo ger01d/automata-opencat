@@ -15,7 +15,7 @@ ser = serial.Serial(
     timeout=1
 )
 
-catStuff = ['kzero', 'ksit', 'khi', 'kbuttUp',  'kpee']
+catStuff = ['kwkF', 'ksit', 'khi', 'kbuttUp',  'kpee']
 weights = [10, 20, 5, 5, 5]  # Increase chance with higher values
 avoidanceManeuvers = ['kwkL', 'kwkR']
 
@@ -44,7 +44,7 @@ async def avoidObstacle():
                 ser.write(str.encode('kbk'))
                 await asyncio.sleep(random.random()*3)
             elif ((criticalDistance >= 80.0) and (distance[1]*1.03 > distance[0])):
-                ser.write(str.encode('kzero'))
+                ser.write(str.encode('kwkF'))
                 await asyncio.sleep(random.random()*3) 
 
 

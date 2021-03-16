@@ -7,7 +7,7 @@ from math import fsum
 
 # Establish serial connection via PySerial
 ser = serial.Serial(
-    port='/dev/rfcomm0',
+    port='/dev/rfcomm0', # Has to be changed according to the bluetooth serial port
     baudrate=115200,
     parity=serial.PARITY_NONE,
     stopbits=serial.STOPBITS_ONE,
